@@ -1,0 +1,2 @@
+browser-sync start --server --files "css/*.css"
+browser-sync start --proxy "myproject.dev" --files "css/*.css"
