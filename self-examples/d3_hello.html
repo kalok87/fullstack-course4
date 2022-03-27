@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>a demo of d3</title>
+        <style>
+            p {
+                font-size: medium;
+                color: blue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <p>hello world!</p>
+        <p>hello world!</p>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> 
+        <script>  
+            var p = d3.select("body").selectAll("p").text("www.ourd3js.com");
+            //修改段落的颜色和字体大小
+            p.style("color","green").style("font-size","72px");
+        </script> 
+    </body>
+</html>
