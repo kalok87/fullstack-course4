@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>examples of psuedo</title>
+        <style>
+            /* the rule path below, hover of #party_food -> the 2nd li under #party_foods */
+            #party_foods:hover li:nth-child(2){
+                background-color: yellow;
+                width: fit-content;
+            }
+
+            #party_foods li:nth-child(2):hover{
+                background-color: red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section id="party_foods">
+            the things we need to buy for the party are:
+            <ul>
+                <li>bread</li>
+                <li>wine</li>
+                <li>chicken wings</li>
+                <li>burgers from MacDonalds</li>
+            </ul>
+        </section>
+        <section id="warning">
+            warnings:
+            <ul>
+                <li>make people fat</li>
+                <li>not for children</li>
+            </ul>
+        </section>
+    </body>
+</html>
